@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="vendor/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
+    <div class="lyt_master">
+      <div class="lyt_sd menu_bar shadow d-lg-block d-none" id="menu">
+        <div
+          class="d-flex justify-content-end d-lg-none d-block"
+          id="close_menu"
+        >
+          <div
+            class="open_sidebar d-flex align-items-center justify-content-center my-3 text-end"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="menu_group">
+          <div class="menu_group">
+            <div class="menu_item">
+              <a href="#" class="menu_link active">
+                <i class="fa-solid fa-gauge"></i> <span>New campaign</span>
+              </a>
+            </div>
+            <div class="menu_item">
+              <a href="#" class="menu_link">
+                <i class="fa-solid fa-address-book"></i> <span>Contacts</span>
+              </a>
+            </div>
+            <div class="menu_item menu_item__expandable">
+              <a href="#" class="menu_link">
+                <i class="fa-solid fa-file"></i>
+                <!-- <i class="fa-regular fa-file"></i> -->
+                <span>Report</span>
+              </a>
+
+              <div class="menu_child">
+                <div class="menu_item">
+                  <a href="#" class="menu_link">
+                    <span>Call center report</span>
+                  </a>
+                </div>
+                <div class="menu_item">
+                  <a href="#" class="menu_link">
+                    <span>Feedback report</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lyt_mn">
+        <div class="d-flex gap-3 align-items-center tab_box">
+          <div class="d-lg-none d-block">
+            <div
+              class="open_sidebar d-flex align-items-center justify-content-center"
+              id="open_menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+          <div class="tab_menu">
+            <div class="tab_item">
+              <a href="#" class="tab_link active" panel="panelOne">
+                <span class="tab_sn">1</span>
+                <span class="tab_label text-nowrap">Intro and test one</span>
+              </a>
+            </div>
+
+            <div class="tab_item">
+              <a href="#" class="tab_link" panel="panelTwo">
+                <span class="tab_sn">2</span>
+                <span class="tab_label text-nowrap">Test two</span>
+              </a>
+            </div>
+
+            <div class="tab_item">
+              <a href="#" class="tab_link" panel="panelThree">
+                <span class="tab_sn">3</span>
+                <span class="tab_label text-nowrap">Test three</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab_content">
+          <div class="tab_panel active" id="panelOne">
+            <h1 class="h1 mb-1 text-dark">Hello!</h1>
+
+            <h5 class="h5 mb-3 text-dark">
+              Welcome to Voxcrow front-end test.
+            </h5>
+
+            <h5 class="h5 mt-2 text-dark">Description</h5>
+            <div class="text-muted">
+              <p>
+                As you can see, the coding and design are still under progress.
+                There are numerous gaps and errors in the design. The duties of
+                a front-end developer are diverse and include updating and
+                optimizing existing code (HTML, CSS, JavaScript, jQuery, and
+                other languages). The responsibilities of a front-end developer
+                may include developing new designs, updating libraries, setting
+                up design systems, etc.
+              </p>
+
+              <p>
+                There are three task in this test. Each tab consists of a test.
+                On completion of test one, move on to test two in the second tab
+                and to third.
+              </p>
+            </div>
+
+            <h5 class="h5 text-dark mb-4">Good luck!</h5>
+
+            <h5 class="h5">Task one</h5>
+
+            <p class="text-muted">
+              <i
+                >Create a custom tab panel using these HTML and CSS with
+                jQuery.</i
+              >
+            </p>
+          </div>
+
+          <div class="tab_panel" id="panelTwo">
+            <h5>Task two</h5>
+
+            <p class="text-muted">
+              <i>
+                As you can see, the sidebar navigation is very simple and
+                unattractive. Upgrade the codes and design as you see fit.</i
+              >
+            </p>
+          </div>
+
+          <div class="tab_panel" id="panelThree">
+            <h5>Task three</h5>
+
+            <p class="text-muted">
+              <i
+                >Beautify, optimize and update this project where you see
+                fit.</i
+              >
+            </p>
+            <a href="https://voxcrow.com/">
+              <h5>Learn about Voxcrow</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
